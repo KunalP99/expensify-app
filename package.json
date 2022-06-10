@@ -1,0 +1,46 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kunal Patel",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "test": "jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "css-loader": "0.28.4",
+    "enzyme": "3.0.0",
+    "enzyme-adapter-react-16": "1.0.0",
+    "enzyme-to-json": "3.0.1",
+    "jest": "^28.1.1",
+    "moment": "2.18.1",
+    "node-sass": "^7.0.1",
+    "normalize.css": "7.0.0",
+    "raf": "3.3.2",
+    "react": "^18.1.0",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-dates": "12.7.0",
+    "react-dom": "^18.1.0",
+    "react-modal": "2.2.2",
+    "react-redux": "5.0.5",
+    "react-router-dom": "4.3.0",
+    "react-test-renderer": "^18.1.0",
+    "redux": "3.7.2",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "uuid": "^8.3.2",
+    "validator": "13.7.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "sass": "^1.51.0"
+  }
+}
